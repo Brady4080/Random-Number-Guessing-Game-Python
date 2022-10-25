@@ -41,7 +41,6 @@ def click(): # function for the button submit
             guess = ("Guess was less than 1")
             output.insert(END, guess)
         
-
 def close_window(): # function that makes the exit button close the window
     window.destroy()
     exit()
